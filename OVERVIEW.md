@@ -1,6 +1,6 @@
-Laptop Price Prediction Using Machine Learning
+# Laptop Price Prediction Using Machine Learning
 
-Project Overview
+## Project Overview
 This project predicts laptop prices based on laptop specifications using Machine Learning.
 
 The project helps understand how features like:
@@ -11,8 +11,9 @@ The project helps understand how features like:
 - Weight
 affect laptop prices.
 
+---
 
-Dataset
+# Dataset
 Dataset taken from Kaggle.
 
 Dataset contains:
@@ -26,8 +27,9 @@ Dataset contains:
 - Operating System
 - Price
 
+---
 
-Technologies Used
+# Technologies Used
 - Python
 - Pandas
 - NumPy
@@ -36,15 +38,16 @@ Technologies Used
 - Scikit-learn
 - Google Colab
 
+---
 
-Project Steps
+# Project Steps
 
- 1. Data Cleaning
+## 1. Data Cleaning
 - Checked missing values
 - Checked duplicate values
 - Cleaned dataset
 
- 2. Exploratory Data Analysis
+## 2. Exploratory Data Analysis
 Created graphs to understand:
 - Company vs Price
 - RAM vs Price
@@ -52,7 +55,7 @@ Created graphs to understand:
 - CPU vs Price
 - Touchscreen vs Price
 
- 3. Feature Engineering
+## 3. Feature Engineering
 Created new features:
 - TouchScreen
 - IPS Display
@@ -60,34 +63,36 @@ Created new features:
 - HDD
 - CPU Brand
 
- 4. Data Preprocessing
+## 4. Data Preprocessing
 Converted text data into numerical format using One-Hot Encoding.
 
- 5. Model Training
+## 5. Model Training
 Used:
 - Linear Regression
 - Random Forest Regressor
 
- 6. Model Evaluation
+## 6. Model Evaluation
 Compared model performance using:
 - R2 Score
 - Mean Absolute Error (MAE)
 
+---
 
-Model Results
+# Model Results
 
- Linear Regression
+## Linear Regression
 - R2 Score: 0.74
 - MAE: 242
 
- Random Forest Regressor
+## Random Forest Regressor
 - R2 Score: 0.78
 - MAE: 197
 
 Random Forest performed better than Linear Regression.
 
+---
 
-Conclusion
+# Conclusion
 This project successfully predicts laptop prices using Machine Learning.
 
 From the analysis:
@@ -98,15 +103,6 @@ From the analysis:
 
 Random Forest gave better prediction accuracy.
 
-
-
-# Future Improvements
-- Build Streamlit Web App
-- Deploy project online
-- Improve accuracy using advanced models
-- Add user input prediction system
-
----
 
 # Author
 Divya Sree
